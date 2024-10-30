@@ -1,0 +1,42 @@
+.catcConditionSearch {
+    background-color: #fff;
+    display: inline-flex;
+}
+
+.catc-spinner {
+    float: none !important;
+}
+
+.catcDeleteCondition {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.catcDeleteCondition svg {
+    width: 10px;
+    height: 10px;
+}
+
+.catcConditionSearch[role="tagslist"]{
+    border-color: #7e8993;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 0;
+}
+
+.catcCondition > div{
+    padding-right: 8px;
+}
+
+.catcCondition > div:nth-child(2) select{
+    min-width: 188px;
+}
+.catcCondition > div:nth-child(3) input{
+    width: 300px;
+}
+
+.catcConditionSearch + .select2-container .select2-search--inline .select2-search__field{
+    margin-top: 0;
+}
+
